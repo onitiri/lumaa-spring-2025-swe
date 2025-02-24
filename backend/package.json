@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "dev": "nodemon --exec ts-node src/index.ts",
+        "build": "tsc",
+        "updateJWT": "node scripts/createJwtSecret.js"
+    },
+    "dependencies": {
+        "@types/bcrypt": "^5.0.2",
+        "@types/cors": "^2.8.17",
+        "@types/jsonwebtoken": "^9.0.9",
+        "nodemon": "^3.1.9"
+    }
+}
