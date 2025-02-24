@@ -2,6 +2,10 @@
 
 A full-stack task management application built with React, Node.js, and PostgreSQL.
 
+## Demo
+
+https://youtu.be/9vBAlwzKfUY
+
 ## Features
 
 - User authentication (register/login)
